@@ -59,7 +59,7 @@ $(function(){
 	}
 	
 	
-	$('#image_container img').load(function(){
+	$(window).load(function(){
 		PAPER_WIDTH = $('#image_container img').width();
 		PAPER_HEIGTH = $('#image_container img').height();
 		$('#image_container').height(PAPER_HEIGTH + 'px');
